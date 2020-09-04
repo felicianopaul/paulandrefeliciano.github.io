@@ -187,12 +187,12 @@ h2 {
 }
 
 .goodAt{
-    width: 25%;
-    height: 25%;
+    width: 2vw;
+    height: 2vw;
 }
 
 .goodAtBorder{
-    padding: 20px;
+    padding: 1.3vw;
     border-style: double;
     border-color: black;
     border-width: 7px 7px 7px 7px; 
@@ -200,6 +200,7 @@ h2 {
     background-color: white;
     overflow: hidden;
     width: 15%;
+    height: 6.4vw;
     margin: 0px;
     display: inline-block;
     font-size: 1vw;
@@ -302,22 +303,21 @@ h2 {
     }
 
     .goodAt{
-        width: 10%;
-        height: 10%;
+        width: 4vw;
+        height: 4vw;
     }
-
+    
     .goodAtBorder{
-        display: inline-block;
-        width: 80%;
-        font-size: 12px;
-        margin: 0px;
-        padding: 20px;
-    }   
+    font-size: 2vw;
+    width: 15vw;
+    height: 15vw;
+}
 
     .return{
         font-size: 2.1vw;
     }
 }
+
 
 
 
