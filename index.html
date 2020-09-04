@@ -30,7 +30,7 @@
                     <br>
                     <img src ="https://i.imgur.com/cIeilO9.png" class="banner">
                 </div>
-                <button type="button" class="collapsible collapseText">THINGS I'M GOOD AT</button>
+                <button type="button" class="dropdown collapseText">THINGS I'M GOOD AT</button>
                 <div class="content">
                     <div class="goodAtBorder">
                         <img src ="https://i.imgur.com/gfktiI2.png" class = "goodAt"><br>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <img src ="https://i.imgur.com/0xmpTtI.png" class="banner2">
-                <button type="button" class="collapsible collapseText">THINGS I LIKE TO DO</button>
+                <button type="button" class="dropdown collapseText">THINGS I LIKE TO DO</button>
                 <div class="content">
                     <div class="goodAtBorder">
                         <img src ="https://i.imgur.com/bR9yl9L.png" class = "goodAt"><br>
@@ -91,11 +91,11 @@
         <br><br>
     </center>
     <script>
-        var coll = document.getElementsByClassName("collapsible");
+        var collect = document.getElementsByClassName("dropdown");
         var i;
 
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
+        for (i = 0; i < collect.length; i++) {
+            collect[i].addEventListener("click", function () {
                 this.classList.toggle("active");
                 var content = this.nextElementSibling;
                 if (content.style.maxHeight) {
