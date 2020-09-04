@@ -27,6 +27,7 @@ h2 {
     background-image: url("https://wallpapercave.com/wp/BdUFEJr.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100%;
     text-align: center;
     overflow: hidden;
