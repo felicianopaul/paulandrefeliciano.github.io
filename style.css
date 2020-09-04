@@ -8,7 +8,7 @@ body {
     -moz-transition:all .5s ease-in-out; 
     -webkit-transition:all .5s ease-in-out;
     background-color: black;
-    margin-top: 2.7%;
+    margin: 0%;
 }
 
 h1 {
@@ -125,23 +125,23 @@ h2 {
 }
 
 .icons{
-     width: 5%;
-     vertical-align: middle;
+    width: 5%;
+    vertical-align: middle;
 }
 
 .link:link {
- color: black;
-  text-decoration: none;
-  word-break: break-all;
+    color: black;
+    text-decoration: none;
+    word-break: break-all;
 }
 
 .link:visited {
     color: black;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .link:hover {
-  color: darkgoldenrod;
+    color: darkgoldenrod;
 }
 
 .ustLogo{
@@ -173,14 +173,14 @@ h2 {
 }
 
 .banner{
-     width: 100%;
-     height: 100%;
+    width: 100%;
+    height: 100%;
     padding: 0px;
     margin: 0px;
 }
 
 .banner2{
-     width: 100%;
+    width: 100%;
     padding: 0px;
     margin: 0px;
 }
@@ -221,28 +221,28 @@ h2 {
 }
 
 .album:hover {
-   transform: rotate(3deg) scale(1.1);
+    transform: rotate(3deg) scale(1.1);
 }
 
 .return{
-  background-color: darkgoldenrod;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 0% 0% 5% 0%;
-  cursor: pointer;
-  font-size: 1.2vw;
-  border-radius: 10px;
-  transition: transform .2s ease-in-out;
-  color: white;
+    background-color: darkgoldenrod;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0% 0% 5% 0%;
+    cursor: pointer;
+    font-size: 1.2vw;
+    border-radius: 10px;
+    transition: transform .2s ease-in-out;
+    color: white;
 }
 
 .return:hover{
-   transform: scale(1.1);
-   background-color: gold;
-   color: white;
+    transform: scale(1.1);
+    background-color: gold;
+    color: white;
 }
 
 .credits {
@@ -260,63 +260,66 @@ h2 {
     h1{
         font-size: 5vw;
     }
-    
+
     h2{
         font-size: 4.3vw;
     }
-    
+
     .infoDiv{
         width: 100%;
     }
-    
+
     .profilePic{
         width: 35%;
     }
-    
+
     .socmedDiv{
         font-size: 3.2vw;
         width: 55%;
     }
-    
+
     .paulDiv{
         width: 100%;
     }
-    
+
     .icons{
         width: 5%;
     }
-    
+
     body{
         margin: 0px;
     }
-    
+
     .ustLogo{
         width: 65%;
     }
-    
+
     .collapseText{
-    font-family: 'Fredoka One', cursive;
-    font-size: 100%;
-    color: white;
+        font-family: 'Fredoka One', cursive;
+        font-size: 100%;
+        color: white;
     }
-    
+
     .goodAt{
-    width: 10%;
-    height: 10%;
-}
-   
+        width: 10%;
+        height: 10%;
+    }
+
     .goodAtBorder{
-    display: inline-block;
-    width: 80%;
-    font-size: 12px;
-    margin: 0px;
-    padding: 20px;
+        display: inline-block;
+        width: 80%;
+        font-size: 12px;
+        margin: 0px;
+        padding: 20px;
     }   
-    
+
     .return{
         font-size: 2.1vw;
     }
 }
+
+
+
 
 
 
