@@ -83,7 +83,7 @@ h2 {
     color: white;
 }
 
-.collapsible {
+.dropdown {
     background-color: hsla(0, 0%, 10%, 0.9);
     color: white;
     cursor: pointer;
@@ -102,7 +102,7 @@ h2 {
     color: white;
 }
 
-.active, .collapsible:hover {
+.active, .dropdown:hover {
     background-color: darkgoldenrod;
     opacity: 0.9;
     color: white;
@@ -118,7 +118,7 @@ h2 {
     transition: max-height 0.2s ease-out;
 }
 
-.collapsible:after {
+.dropdown:after {
     content: '\02795'; 
     font-size: 13px;
     color: white;
